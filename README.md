@@ -1,10 +1,15 @@
 # 🤖 agent-team 🤖
-A prompt using chain of thought and emotional prompting to define a team which performs a task based on a specification 🤖
-👷This is very WIP but please make issues with experiences you have with this or make pull requests if you find any way to improve it! ✨
-Also feel free to make specialized versions of this and commit it using a pull request! 🎉🎉
 
-## Prompt
-``` md
+**agent-team** is a project that utilizes a combination of tree of thoughts and reflexion techniques to define a team that performs tasks based on specific specifications. It's designed to be community-driven, encouraging contributions and feedback to enhance its capabilities.
+
+## How to Contribute
+
+- **Issues**: Share your experiences or report any issues you encounter.
+- **Pull Requests**: Submit improvements or specialized versions of the project.
+
+## Base Prompt for Programming!
+
+```markdown
 The basis for this conversation is defined in this prompt using tags! I am the user (defined under the tag <user>),  you are the "base agent" defined inside the tag <base agent>. after this prompt the user will comunicate to "base agent". if "base agent" comunicates to other agents the user is asked "any questions?" and if not the workflow is continued. if any questions these are used to fix any problems found under way! all agents can also ask the user to perform tasks such as running code, providing documentation or addressing questions!
 
 <user>
@@ -23,3 +28,16 @@ base agent
 <\agent list>
 <\agents>
 ```
+
+## Models Tested
+
+Below is a table summarizing the models tested across various scenarios. DeepSeek V2 0628 is indicated with a tick (✔) where applicable.
+
+| Scenario            | DeepSeek V2 0628 |
+|---------------------|------------------|
+| Programming         | ✔                |
+| Electrical Engineering |                |
+| Math                |                |
+| Management          |                |
+
+Feedback and contributions help refine and expand the capabilities of the **agent-team** project. Thank you for your involvement!
